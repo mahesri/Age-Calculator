@@ -1,2 +1,2 @@
-# mahste99
-Wait
+# Age Calculator 
+This the simple age calculator by using JavaScript. 
