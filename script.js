@@ -1,10 +1,10 @@
 function calculate() {
 setInterval(() => {
 
-let birthdate = new Date{document.getElementById('birthdate').value};
+let birthdate = new Date(document.getElementById('birthdate').value);
 
 let now = new Date();
-let ageInMs = new.getTime()- birthdate.getTime();
+let ageInMs = now.getTime() - birthdate.getTime();
 
 let ageInS = ageInMs / 1000; // to seconds
 let ageinMins = ageInS / 60; // to minutes
@@ -24,4 +24,7 @@ document.querySelector('#seconds').style.borderBottom = '1px grey solid';
 
 }
 
+function reset(){
+
+    window.location.reload();
 }
